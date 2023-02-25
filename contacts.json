@@ -1,0 +1,23 @@
+{
+    "contact": {
+      "firstName": "Ashton",
+      "lastName": "Pieterse",
+      "email": "ashtonpieterse.ap@gmail.com",
+      "favoriteColor": "Red",
+      "birthday": "25/04/1998"
+    },
+    "contact2": {
+      "firstName": "Cailyn",
+      "lastName": "Pieterse",
+      "email": "pietersec@gmail.com",
+      "favoriteColor": "Red",
+      "birthday": "14/03/1996"
+    },
+    "contact3": {
+      "firstName": "Caleb",
+      "lastName": "Van Der Merwe",
+      "email": "cvdmerwe@gmail.com",
+      "favoriteColor": "Green",
+      "birthday": "03/03/1998"
+    }
+  }
