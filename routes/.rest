@@ -1,4 +1,49 @@
-get http://127.0.0.1:3000/ HTTP/1.1
+get http://127.0.0.1:3001/ HTTP/1.1
 
 ###
 get https://cse341-ashtonpieterse.onrender.com/ HTTP/1.1
+
+### 
+GET http://localhost:3001/contacts 
+### 
+GET http://localhost:3001/contacts/63fa1c7f6b97b1503b17eb13
+### 
+GET http://localhost:3001/contacts/63fa1cb36b97b1503b17eb14 
+
+### 
+GET http://localhost:3001/contacts/63fa1ce06b97b1503b17eb16
+
+
+
+### 
+POST http://localhost:3001/contacts HTTP/1.1 content-type: application/json
+
+{
+"firstName":"Bob", "lastName":"Marley", "email":"Marleybob@test.com", "favoriteColor":"Yellow", "birthday":"03/03/2002"
+}
+
+### 
+PUT http://localhost:3001/contacts/6220bcb39cd507e920c75a0b HTTP/1.1 content-type: application/json
+
+{
+"firstName":"Sam", "lastName":"Smirth", "email":"Samysmith@test.com", "favoriteColor":"Yellow", "birthday":"10/10/2010"
+} 
+
+###
+DELETE http://localhost:3001/contacts/64002f849b482f2cbf3e045b HTTP/1.1
+
+
+
+
+
+###
+get https://cse341-ashtonpieterse.onrender.com/contacts
+
+###
+get https://cse341-ashtonpieterse.onrender.com/contacts/63fa1c7f6b97b1503b17eb13
+
+###
+get https://cse341-ashtonpieterse.onrender.com/contacts/63fa1cb36b97b1503b17eb14
+
+###
+get https://cse341-ashtonpieterse.onrender.com/contacts/63fa1ce06b97b1503b17eb16
