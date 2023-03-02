@@ -43,7 +43,7 @@ get https://cse341-ashtonpieterse.onrender.com/contacts
 get https://cse341-ashtonpieterse.onrender.com/contacts/63fa1c7f6b97b1503b17eb13
 
 ###
-get https://cse341-ashtonpieterse.onrender.com/contacts/63fa1cb36b97b1503b17eb14
+get https://cse341-ashtonpieterse.onrender.com/contacts/64003767e3cc9797cc08dd49
 
 ###
 get https://cse341-ashtonpieterse.onrender.com/contacts/63fa1ce06b97b1503b17eb16
@@ -58,12 +58,12 @@ POST https://cse341-ashtonpieterse.onrender.com/contacts HTTP/1.1 content-type: 
 }
 
 ### 
-PUT https://cse341-ashtonpieterse.onrender.com/64003275f20fcdd257665cdc HTTP/1.1 content-type: application/json
+PUT https://cse341-ashtonpieterse.onrender.com/contacts/64003767e3cc9797cc08dd49 HTTP/1.1 content-type: application/json
 
 {
 "firstName":"Sam", "lastName":"Smirth", "email":"Samysmith@test.com", "favoriteColor":"Yellow", "birthday":"10/10/2010"
 } 
 
 ###
-DELETE https://cse341-ashtonpieterse.onrender.com/contacts/64003275f20fcdd257665cdc HTTP/1.1
+DELETE https://cse341-ashtonpieterse.onrender.com/contacts/640035b6958bbc20c5086563 HTTP/1.1
 
